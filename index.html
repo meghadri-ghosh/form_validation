@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="title-sec">
+      <p>Profile Page</p>
+      <i class="fa-solid fa-circle-user"></i>
+    </section>
+    <main>
+      <section class="img-sec">
+        <img src="pc_img2.png" alt="image error" />
+      </section>
+      <section class="form-sec">
+        <form>
+          <div>
+            <div class="input-cont">
+              <select id="mob-code">
+                <option>+91</option>
+                <option>+1</option>
+                <option>+42</option>
+              </select>
+              <div class="input-grp">
+                <i class="fa-solid fa-mobile-screen-button abs"></i>
+                <input
+                  class="full-width"
+                  id="mob"
+                  type="number"
+                  placeholder="Mobile Number"
+                />
+              </div>
+            </div>
+            <div id="err-mob"></div>
+          </div>
+          <div>
+            <div class="input-cont">
+              <div class="input-grp full-width">
+                <i class="fa-solid fa-phone abs"></i>
+                <input
+                  class="full-width"
+                  id="tel"
+                  type="number"
+                  placeholder="Telephone"
+                />
+              </div>
+            </div>
+            <div id="err-tel"></div>
+          </div>
+          <div>
+            <div class="input-cont">
+              <div class="input-grp full-width">
+                <i class="fa-solid fa-lock abs"></i>
+                <input
+                  class="full-width"
+                  id="psw"
+                  type="password"
+                  placeholder="Password"
+                />
+              </div>
+            </div>
+            <div id="err-psw"></div>
+          </div>
+          <div>
+            <div class="input-cont">
+              <div class="input-grp full-width">
+                <i class="fa-solid fa-lock abs"></i>
+                <input
+                  class="full-width"
+                  id="conf-psw"
+                  type="password"
+                  placeholder="Confirm Password"
+                />
+              </div>
+            </div>
+            <div id="err-conf-psw"></div>
+          </div>
+          <div class="input-cont">
+            <button disabled id="btn" type="button">Next</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

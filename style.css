@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #4d0ffb;
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 100px;
+}
+.img-sec {
+  padding: 140px 50px 150px 0;
+  background: linear-gradient(180deg, #6f57ff 0%, #96fefa 100%);
+  border-radius: 0px 333px 333px 0px;
+}
+img {
+    height: 300px;
+    width: 300px;
+}
+main form {
+  background: linear-gradient(180deg, #6f57ff 0%, #97fef9 100%);
+  padding: 70px 10px;
+  border-radius: 32px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.input-cont {
+  margin: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.input-cont {
+  width: 350px;
+}
+.input-cont .input-grp input {
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 30px;
+  outline: none;
+}
+#mob-code {
+  width: 25%;
+  margin: 0px 4px;
+}
+#mob {
+  width: 70%;
+}
+
+.input-cont button {
+  height: 40px;
+  width: 104px;
+  border: none;
+  cursor: pointer;
+  background-color: #ffe76a;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+.input-grp {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.abs {
+  position: absolute;
+  left: 10px;
+}
+.full-width {
+  width: 100%;
+}
